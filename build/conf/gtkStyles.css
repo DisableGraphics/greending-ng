@@ -1,0 +1,30 @@
+headerbar.default-decoration {
+    min-height: 46px;
+    padding: 6px;
+}
+headerbar.default-decoration button.titlebutton {
+    min-height: 32px;
+    min-width: 32px;
+}
+/*THIS IS MY CUSTOM FONFIGURATION*/
+/*button {border-radius: 0px;}
+entry {border-radius: 0px;}*/
+*
+{
+	border-radius: 0px;
+}
+checkbutton:active
+{
+	background-color: #797979;
+}
+radiobutton:active
+{
+	background-color: #797979;
+}
+scrollbar
+{
+	border-left-color: #1E1E1E;
+	background-color: #1E1E1E;
+	border-top-color: #1E1E1E;
+	border-bottom-color: #1E1E1E;
+}
