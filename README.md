@@ -11,7 +11,8 @@ Most surely not. Therefore, nobody else does!
 - Now rewritten in C++, which means Greending-ng is even faster than its predecessor (Which already was fast)
 - Extensions! Now you can block ads <a href=adblock.md>if you follow this tutorial</a>
 - New look: Rectangular buttons and Client Side Decorations.
-- WebKit based. This alternative (To Blink and Gecko) browser engine is incredibly fast and lightweight (Runs on my potato pretty nicely). 
+- WebKit based. This alternative (To Blink and Gecko) browser engine is incredibly fast and lightweight (Runs on my 2012 potato pretty nicely). 
+- Saves tabs when closed. Because it's annoying otherwise 
 
 # Installation
 **Dependencies:**
