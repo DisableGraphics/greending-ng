@@ -16,7 +16,8 @@ Most surely not. Therefore, nobody else does!
 # Installation
 **Dependencies:**
 - GtkMM 3 `sudo pacman -S gtkmm3`
-- WebKitGtk `sudo pacman -S webkit2gtk` <br>
+- WebKitGtk `sudo pacman -S webkit2gtk`
+
 **Building:**
 ```
 git clone https://github.com/DisableGraphics/greending-ng
