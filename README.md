@@ -23,6 +23,7 @@ Most surely not. Therefore, nobody else does!
 ```
 git clone https://github.com/DisableGraphics/greending-ng
 cd greending-ng
+
 make
 cd build
 ./greending-ng
