@@ -16,8 +16,8 @@ Most surely not. Therefore, nobody else does!
 
 # Installation
 **Dependencies:**
-- GtkMM 3 `sudo pacman -S gtkmm3`
-- WebKitGtk `sudo pacman -S webkit2gtk`
+- GtkMM 3 <br>`sudo pacman -S gtkmm3`<br> `sudo apt install libgtkmm-3.0-dev`
+- WebKitGtk <br>`sudo pacman -S webkit2gtk`<br> `sudo apt install libwebkit2gtk-4.0-dev`
 
 **Building:**
 ```
