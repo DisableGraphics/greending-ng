@@ -7,7 +7,9 @@ Working with WebKitGtk extensions is pretty difficult normally, so I've tried to
 # Building
 
 1. Install the server:
-`cargo install adblock-rust-server`
+```
+cargo install adblock-rust-server
+```
 
 2. Clone and install the adblock:
 ```
@@ -16,9 +18,13 @@ cd blockit
 sudo make install
 ```
 3. Link the adblock to the Greending-ng extensions directory
-`sudo ln -s /usr/local/lib/blockit.so /path/to/greeding-ng/extensions/directory/blockit.so`
+```
+sudo ln -s /usr/local/lib/blockit.so /path/to/greeding-ng/extensions/directory/blockit.so
+```
 Or just copy the library
-`cp blockit.so /path/to/greeding-ng/extensions/directory/blockit.so`
+```
+cp blockit.so /path/to/greeding-ng/extensions/directory/blockit.so
+```
 
 Now the tricky part begins
 
@@ -29,12 +35,12 @@ https://easylist.to/easylist/easyprivacy.txt
 https://easylist.to/easylist/fanboy-social.txt
 https://secure.fanboy.co.nz/fanboy-annoyance.txt
 ```
-5. Open a new terminal and execute `adblock-rust-server`
+5. Open a new terminal and execute `adblock-rust-server`<br>
 Do **not** close it. For some reasons I'm yet to understand, Greending-ng doesn't open it correctly in my machine. Try not opening a terminal and see if it works on yours.
 
 # Disclaimer
 
-I've noted issures with this adblock: If the page is loaded too fast, it will not block ads at first. This is specially annoying with YouTube, as YouTube loads first the ads and you have to wait until Blockit has finished blocking them. Otherwise, it works pretty well.
+I've found issues with this adblock: If the page is loaded too fast, it will not block ads at first. This is specially annoying with YouTube, as YouTube loads first the ads and you have to wait until Blockit has finished blocking them. Otherwise, it works pretty well.
 
 # Mentions
 Thanks to <a href=https://github.com/dudik/>dudik</a> for this adblock.
