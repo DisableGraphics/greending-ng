@@ -12,7 +12,7 @@ Most surely not. Therefore, nobody else does!
 - Extensions! Now you can block ads <a href=adblock.md>if you follow this tutorial</a>
 - New look: Rectangular buttons and Client Side Decorations.
 - WebKit based. This alternative (To Blink and Gecko) browser engine is incredibly fast and lightweight (Runs on my 10 year old potato pretty nicely). 
-- Saves tabs when closed to resume navigation 
+- Saves tabs when closed.
 
 # Installation
 **Dependencies:**
