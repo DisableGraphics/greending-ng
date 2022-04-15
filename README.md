@@ -13,6 +13,7 @@ Most surely not. Therefore, nobody else does!
 - New look: Rectangular buttons and Client Side Decorations.
 - WebKit based. This alternative (To Blink and Gecko) browser engine is incredibly fast and lightweight (Runs on my 10 year old potato pretty nicely). 
 - Saves tabs when closed.
+- Hideously small. The executable weights approximately 250KiB.
 
 # Installation
 **Dependencies:**
