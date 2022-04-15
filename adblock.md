@@ -17,7 +17,10 @@ git clone https://github.com/dudik/blockit
 cd blockit
 sudo make install
 ```
-3. Link the adblock to the Greending-ng extensions directory
+3. Create a folder named `extensions` in the greending-ng folder
+Next to the `conf` folder and the `greending-ng` executable
+
+4. Link the adblock to the Greending-ng extensions directory
 ```
 sudo ln -s /usr/local/lib/blockit.so /path/to/greeding-ng/extensions/directory/blockit.so
 ```
@@ -28,14 +31,14 @@ cp blockit.so /path/to/greeding-ng/extensions/directory/blockit.so
 
 Now the tricky part begins
 
-4. Open `~/.config/ars/urls` with a text editor and append this to its contents:
+5. Open `~/.config/ars/urls` with a text editor and append this to its contents:
 ```
 https://easylist.to/easylist/easylist.txt
 https://easylist.to/easylist/easyprivacy.txt
 https://easylist.to/easylist/fanboy-social.txt
 https://secure.fanboy.co.nz/fanboy-annoyance.txt
 ```
-5. Open a new terminal and execute `adblock-rust-server`<br>
+6. Open a new terminal and execute `adblock-rust-server`<br>
 Do **not** close it. For some reasons I'm yet to understand, Greending-ng doesn't open it correctly in my machine. Try not opening a terminal and see if it works on yours.
 
 # Disclaimer
