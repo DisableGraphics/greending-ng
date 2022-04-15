@@ -29,8 +29,6 @@ Or just copy the library
 cp blockit.so /path/to/greeding-ng/extensions/directory/blockit.so
 ```
 
-Now the tricky part begins
-
 5. Open `~/.config/ars/urls` with a text editor and append this to its contents:
 ```
 https://easylist.to/easylist/easylist.txt
