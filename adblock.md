@@ -17,7 +17,7 @@ git clone https://github.com/dudik/blockit
 cd blockit
 sudo make install
 ```
-3. Create a folder named `extensions` in the greending-ng folder
+3. Create a folder named `extensions` in the greending-ng folder <br>
 Next to the `conf` folder and the `greending-ng` executable
 
 4. Link the adblock to the Greending-ng extensions directory
