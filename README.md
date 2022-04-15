@@ -8,11 +8,11 @@ The web browser that protects you from onlookers, rewritten in C++
 Most surely not. Therefore, nobody else does!
 
 # Features
-- Now rewritten in C++, which means Greending-ng is even faster than its predecessor (Which already was fast)
+- Now rewritten in C++, which means Greending-ng is even faster than its predecessor (Which already was)
 - Extensions! Now you can block ads <a href=adblock.md>if you follow this tutorial</a>
 - New look: Rectangular buttons and Client Side Decorations.
 - WebKit based. This alternative (To Blink and Gecko) browser engine is incredibly fast and lightweight (Runs on my 10 year old potato pretty nicely). 
-- Saves tabs when closed. Because it's annoying otherwise 
+- Saves tabs when closed to resume navigation 
 
 # Installation
 **Dependencies:**
